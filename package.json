@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "noura",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple project to  learn react",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jose Cuevas <josecueram@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.61",
     "gatsby-image": "^2.4.19",
@@ -16,7 +16,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
