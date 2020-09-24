@@ -4,7 +4,7 @@ import { Purchase, Button } from '../styles/components'
 import { Link } from 'gatsby'
 const Cancel = () => {
   return (
-    <div>
+    <>
       <SEO title='Purchase cancelled' />
       <Purchase>
         <h2>We&apos;re sorry you had to cancel</h2>
@@ -14,7 +14,7 @@ const Cancel = () => {
           <Button>Back to menu</Button>
         </Link>
       </Purchase>
-    </div>
+    </>
   )
 }
 
