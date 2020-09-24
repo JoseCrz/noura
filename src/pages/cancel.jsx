@@ -10,7 +10,7 @@ const Cancel = () => {
         <h2>We&apos;re sorry you had to cancel</h2>
         <p>Your croissant will be waiting for you when you are ready</p>
         <span role='img' aria-label='heart emoji'>❤️</span>
-        <Link>
+        <Link to='/'>
           <Button>Back to menu</Button>
         </Link>
       </Purchase>
