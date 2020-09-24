@@ -1,7 +1,7 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/display-name */
 
-// You can delete this file if you're not using it
+const React = require('react')
+const Layout = require('./src/components/Layout').default
+
+exports.wrapPageElement = ({ element }) => <Layout> { element } </Layout>
