@@ -1,16 +1,22 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import { StyledJumbo } from '../styles/components'
 
-const Jumbo = () => {
+const Jumbo = ({ title, description }) => {
   return (
     <StyledJumbo>
       <div>
-        <h2>Noura Gourmet</h2>
-        <small>The best Croissants</small>
+        <h2>{title}</h2>
+        <small>{description}</small>
       </div>
     </StyledJumbo>
   )
+}
+
+Jumbo.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string
 }
 
 export default Jumbo
