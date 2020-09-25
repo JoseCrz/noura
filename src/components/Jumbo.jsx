@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import BackgroundImage from './BackgroundImage'
+
 import { StyledJumbo } from '../styles/components'
 
 const Jumbo = ({ title, description }) => {
@@ -10,6 +12,7 @@ const Jumbo = ({ title, description }) => {
         <h2>{title}</h2>
         <small>{description}</small>
       </div>
+      <BackgroundImage />
     </StyledJumbo>
   )
 }
