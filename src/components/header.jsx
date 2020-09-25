@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
           <Link to='/'>Menu</Link>
         </MenuItem>
         <MenuItem>
-          <Link to='https://www.instagram.com/noura.gourmet/'>Instagram</Link>
+          <a href='https://www.instagram.com/noura.gourmet/' target='_blank' rel='noreferrer'>Instagram</a>
         </MenuItem>
         <MenuItem>
           <Link to='/cart'>
