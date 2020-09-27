@@ -3,5 +3,11 @@
 
 const React = require('react')
 const Layout = require('./src/components/Layout').default
+const { GlobalStyles } = require('./src/styles')
 
-exports.wrapPageElement = ({ element }) => <Layout> { element } </Layout>
+exports.wrapPageElement = ({ element }) => (
+  <>
+    <GlobalStyles />
+    <Layout> { element } </Layout>
+  </>
+)
