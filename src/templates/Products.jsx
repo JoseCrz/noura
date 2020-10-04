@@ -1,11 +1,18 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Products = () => {
+import { ProductDetail } from '../components'
+
+const Products = ({ pageContext }) => {
   return (
     <>
-      <h1>Product Detail</h1>
+      <ProductDetail {...pageContext} />
     </>
   )
+}
+
+Products.propTypes = {
+  pageContext: PropTypes.object
 }
 
 export default Products
