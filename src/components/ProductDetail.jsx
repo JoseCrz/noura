@@ -16,6 +16,7 @@ const ProductDetail = ({ id, product, unit_amount: unitAmount }) => {
         <h2>{product.name}</h2>
         <b>USD {unitAmount} </b>
         <Stars />
+        <small>{product.metadata.description}</small>
         <SizeSelect selected={size} >
           <SizeButton onClick={() => setSize(1)} >S</SizeButton>
           <SizeButton onClick={() => setSize(2)} >M</SizeButton>
