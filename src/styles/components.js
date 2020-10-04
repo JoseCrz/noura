@@ -360,6 +360,7 @@ export const SizeButton = styled.button`
   color: #272727;
   opacity: ${({ unavailable }) => (unavailable ? 0.4 : 1)};
   transition: 0.4s all ease;
+  cursor: pointer;
   &:focus {
     outline: none;
   }
